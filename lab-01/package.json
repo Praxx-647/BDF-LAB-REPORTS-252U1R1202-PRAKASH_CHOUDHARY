@@ -1,0 +1,22 @@
+{
+  "name": "lab-01-node-express-server",
+  "version": "1.0.0",
+  "description": "Lab 1: Node.js and Express server for Backend Development Fundamentals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:http": "node server-http.js",
+    "test": "node test-endpoints.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "backend"
+  ],
+  "author": "Prakash Choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
+
