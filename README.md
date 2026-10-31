@@ -5,7 +5,7 @@
 **Registration Number**: 252U1R1202  
 **Section**: CSE-2D / 214  
 **Faculty**: Shiva Sai Teja  
-**Repository**: [Prakash-Choudhary/BDF-LAB-REPORTS-252U1R1202](https://github.com/Prakash-Choudhary/BDF-LAB-REPORTS-252U1R1202)
+**Repository**: [Praxx-647/BDF-LAB-REPORTS-252U1R1202](https://github.com/Praxx-647/BDF-LAB-REPORTS-252U1R1202)
 
 ---
 
@@ -44,7 +44,7 @@ This repository houses all laboratory assignments and project deliverables for B
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/Prakash-Choudhary/BDF-LAB-REPORTS-252U1R1202.git
+git clone https://github.com/Praxx-647/BDF-LAB-REPORTS-252U1R1202.git
 cd BDF-LAB-REPORTS-252U1R1202/lab-01
 ```
 
