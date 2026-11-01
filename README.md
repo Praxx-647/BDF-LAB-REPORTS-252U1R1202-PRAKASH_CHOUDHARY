@@ -72,10 +72,9 @@ npm test
 
 ## Deployment & Hosting
 
-The production deployment for **Lab 01** is configured for cloud hosting on [Render](https://render.com/).
+The production deployment for **Lab 01** is configured for cloud hosting on [Vercel](https://vercel.com/) / [Render](https://render.com/).
 
 - **Root Directory**: `lab-01`
-- **Build Command**: `npm install`
-- **Start Command**: `node server.js`
-- **Live URL**: [https://bdf-lab-01-express.onrender.com/](https://bdf-lab-01-express.onrender.com/) *(Will update upon Render activation)*
+- **Build / Configuration**: `vercel.json` (Vercel Serverless Function) or `node server.js`
+- **Live URL**: [Pending Deployment - Updating after Vercel launch]
 
