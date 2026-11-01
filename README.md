@@ -16,7 +16,7 @@ This repository houses all laboratory assignments and project deliverables for B
 | Lab Number | Lab Title | Status | Documentation & Code |
 | :--- | :--- | :--- | :--- |
 | **Lab 01** | Node.js and Express Server | ✅ Completed | [Browse lab-01/](./lab-01) • [🌐 Live Server](https://bdf-labreport01-252u1r1202-prakashc.vercel.app/) |
-| **Lab 02** | Upcoming Lab | ⏳ Pending | `lab-02/` |
+| **Lab 02** | SQLite Database and CRUD Routes | ✅ Completed | [Browse lab-02/](./lab-02) |
 | **Lab 03** | Upcoming Lab | ⏳ Pending | `lab-03/` |
 | **Lab 04** | Upcoming Lab | ⏳ Pending | `lab-04/` |
 | **Lab 05** | Upcoming Lab | ⏳ Pending | `lab-05/` |
@@ -37,6 +37,18 @@ This repository houses all laboratory assignments and project deliverables for B
   - **Automated route tester** and status code logger ([`test-endpoints.js`](./lab-01/test-endpoints.js))
   - **Output proof screenshots** ([`screenshots/`](./lab-01/screenshots))
   - **Full lab report and viva Q&A** ([`lab-01/README.md`](./lab-01/README.md))
+
+---
+
+## Lab 2 Overview
+
+- **Folder**: [`lab-02/`](./lab-02)
+- **Deliverables**:
+  - **SQLite Database** (`database.db`) seeded with 10 book records
+  - **Express.js application** with complete CRUD operations using parameterized queries ([`server.js`](./lab-02/server.js))
+  - **Automated CRUD route tester** validating endpoints and DB mutations ([`test-endpoints.js`](./lab-02/test-endpoints.js))
+  - **Output proof screenshots** for all 5 CRUD operations and DB inspection ([`screenshots/`](./lab-02/screenshots))
+  - **Full lab report and viva Q&A** ([`lab-02/README.md`](./lab-02/README.md))
 
 ---
 
