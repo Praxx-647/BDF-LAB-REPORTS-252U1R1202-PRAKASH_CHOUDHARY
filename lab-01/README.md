@@ -4,7 +4,7 @@
 **Registration Number**: 252U1R1202 
 **Section**: CSE-2D / 214  
 
-**Live Link**: [Insert Live Deployment URL (e.g. Render / Railway) or state reason if not deployed]
+**Live Link**: [https://bdf-labreport01-252u1r1202-prakashc.vercel.app/](https://bdf-labreport01-252u1r1202-prakashc.vercel.app/)
 
 ---
 

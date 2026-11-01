@@ -15,7 +15,7 @@ This repository houses all laboratory assignments and project deliverables for B
 
 | Lab Number | Lab Title | Status | Documentation & Code |
 | :--- | :--- | :--- | :--- |
-| **Lab 01** | Node.js and Express Server | ✅ Completed | [Browse lab-01/](./lab-01) • [🌐 Live Server](https://bdf-lab-01-express.onrender.com/) *(Pending Deployment)* |
+| **Lab 01** | Node.js and Express Server | ✅ Completed | [Browse lab-01/](./lab-01) • [🌐 Live Server](https://bdf-labreport01-252u1r1202-prakashc.vercel.app/) |
 | **Lab 02** | Upcoming Lab | ⏳ Pending | `lab-02/` |
 | **Lab 03** | Upcoming Lab | ⏳ Pending | `lab-03/` |
 | **Lab 04** | Upcoming Lab | ⏳ Pending | `lab-04/` |
@@ -72,9 +72,10 @@ npm test
 
 ## Deployment & Hosting
 
-The production deployment for **Lab 01** is configured for cloud hosting on [Vercel](https://vercel.com/) / [Render](https://render.com/).
+The production deployment for **Lab 01** is hosted live on [Vercel](https://vercel.com/):
 
+- **Platform**: Vercel Serverless Functions
 - **Root Directory**: `lab-01`
-- **Build / Configuration**: `vercel.json` (Vercel Serverless Function) or `node server.js`
-- **Live URL**: [Pending Deployment - Updating after Vercel launch]
+- **Configuration**: [`lab-01/vercel.json`](./lab-01/vercel.json)
+- **Live URL**: [https://bdf-labreport01-252u1r1202-prakashc.vercel.app/](https://bdf-labreport01-252u1r1202-prakashc.vercel.app/)
 
