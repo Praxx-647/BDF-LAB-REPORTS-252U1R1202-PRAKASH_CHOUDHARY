@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const fs = require('fs');
 const { open } = require('sqlite');
 const sqlite3 = require('sqlite3');
 
@@ -7,7 +8,21 @@ const app = express();
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
-const dbPath = path.join(__dirname, 'database.db');
+let dbPath = path.join(__dirname, 'database.db');
+
+// In serverless environments (Vercel / AWS Lambda), root filesystem is read-only.
+// Copy database.db to /tmp so CRUD write operations (POST, PUT, DELETE) succeed!
+if (process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME) {
+  const tmpDbPath = path.join('/tmp', 'database.db');
+  try {
+    if (!fs.existsSync(tmpDbPath) && fs.existsSync(dbPath)) {
+      fs.copyFileSync(dbPath, tmpDbPath);
+    }
+    dbPath = tmpDbPath;
+  } catch (err) {
+    console.error('Error copying SQLite database to /tmp:', err.message);
+  }
+}
 
 let db = null;
 

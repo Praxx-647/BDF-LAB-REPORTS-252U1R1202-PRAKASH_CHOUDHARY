@@ -6,7 +6,7 @@
 **Course**: Backend Development Fundamentals (Year II Term II)  
 **Faculty**: Sai Siva Teja Chintakrindi  
 
-**Live Link**: [Insert Live Deployment URL or state reason if running locally with Postman]
+**Live Link**: [https://bdf-labreport02-252u1r1202-prakash.vercel.app/](https://bdf-labreport02-252u1r1202-prakash.vercel.app/)
 
 ---
 

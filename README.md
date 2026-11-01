@@ -16,7 +16,7 @@ This repository houses all laboratory assignments and project deliverables for B
 | Lab Number | Lab Title | Status | Documentation & Code |
 | :--- | :--- | :--- | :--- |
 | **Lab 01** | Node.js and Express Server | ✅ Completed | [Browse lab-01/](./lab-01) • [🌐 Live Server](https://bdf-labreport01-252u1r1202-prakashc.vercel.app/) |
-| **Lab 02** | SQLite Database and CRUD Routes | ✅ Completed | [Browse lab-02/](./lab-02) |
+| **Lab 02** | SQLite Database and CRUD Routes | ✅ Completed | [Browse lab-02/](./lab-02) • [🌐 Live Server](https://bdf-labreport02-252u1r1202-prakash.vercel.app/) |
 | **Lab 03** | Upcoming Lab | ⏳ Pending | `lab-03/` |
 | **Lab 04** | Upcoming Lab | ⏳ Pending | `lab-04/` |
 | **Lab 05** | Upcoming Lab | ⏳ Pending | `lab-05/` |
