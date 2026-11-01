@@ -52,42 +52,47 @@ This repository houses all laboratory assignments and project deliverables for B
 
 ---
 
-## Quick Start
+## Quick Start (Running Any Lab)
 
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/Praxx-647/BDF-LAB-REPORTS-252U1R1202-PRAKASH_CHOUDHARY.git
-cd BDF-LAB-REPORTS-252U1R1202-PRAKASH_CHOUDHARY/lab-01
+cd BDF-LAB-REPORTS-252U1R1202-PRAKASH_CHOUDHARY
 ```
 
-### 2. Install Dependencies
+### 2. Navigate to Desired Lab
+```bash
+cd lab-01    # For Lab 1 (Node & Express Basics)
+# or
+cd lab-02    # For Lab 2 (SQLite & CRUD Routes)
+```
+
+### 3. Install Dependencies
 ```bash
 npm install
 ```
 
-### 3. Run the Express Server
+### 4. Run the Server
 ```bash
-npm start
+npm start       # Starts the server
+# or (for lab-02)
+npm run dev     # Starts development mode with nodemon auto-restart
 ```
 
-### 4. Run the Baseline HTTP Server
+### 5. Run Automated Route Tester
 ```bash
-npm run start:http
-```
-
-### 5. Run Automated Endpoint Tester
-```bash
-npm test
+npm test        # Executes automated test suite for all endpoints
 ```
 
 ---
 
-## Deployment & Hosting
+## Live Deployments & Hosting
 
-The production deployment for **Lab 01** is hosted live on [Vercel](https://vercel.com/):
+All laboratory servers are deployed serverless via [Vercel](https://vercel.com/):
 
-- **Platform**: Vercel Serverless Functions
-- **Root Directory**: `lab-01`
-- **Configuration**: [`lab-01/vercel.json`](./lab-01/vercel.json)
-- **Live URL**: [https://bdf-labreport01-252u1r1202-prakashc.vercel.app/](https://bdf-labreport01-252u1r1202-prakashc.vercel.app/)
+| Lab | Title | Root Directory | Live Deployment URL |
+| :--- | :--- | :--- | :--- |
+| **Lab 01** | Node.js and Express Server | `lab-01` | [🌐 View Live Lab 1](https://bdf-labreport01-252u1r1202-prakashc.vercel.app/) |
+| **Lab 02** | SQLite Database & CRUD Routes | `lab-02` | [🌐 View Live Lab 2](https://bdf-labreport02-252u1r1202-prakash.vercel.app/) |
+| **Lab 03** | Upcoming Lab | `lab-03` | ⏳ Pending Deployment |
 
