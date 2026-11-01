@@ -4,7 +4,7 @@
 **Registration Number**: 252U1R1202  
 **Section**: CSE-2D / 214  
 **Course**: Backend Development Fundamentals (Year II Term II)  
-**Faculty**: Joel Prashanth D  
+**Faculty**: Sai Siva Teja Chintakrindi  
 
 **Live Link**: [Insert Live Deployment URL or state reason if running locally with Postman]
 
@@ -76,6 +76,12 @@ CREATE TABLE IF NOT EXISTS book (
 );
 ```
 
+The database comes pre-seeded with **50 diverse books** across computer science, classic literature, science fiction, and non-fiction.
+To reset or re-seed the 50 books anytime:
+```bash
+node seed.js
+```
+
 ---
 
 ## Screenshots
@@ -119,3 +125,4 @@ CREATE TABLE IF NOT EXISTS book (
 
 3. **When is PUT used instead of POST?**  
    `POST` is used to create a new resource where the server assigns the identifier (non-idempotent operation). `PUT` is used to replace or update an existing resource at a specific target URI (`/books/:bookId/`), and is idempotent (sending the same `PUT` request multiple times results in the same resource state).
+

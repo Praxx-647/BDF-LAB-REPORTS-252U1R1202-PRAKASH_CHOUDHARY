@@ -26,7 +26,7 @@ async function runTests() {
     if (res.status !== 200) throw new Error(`Status ${res.status}`);
     const data = await res.json();
     if (!Array.isArray(data)) throw new Error('Response is not an array');
-    if (data.length < 10) throw new Error(`Expected at least 10 books, found ${data.length}`);
+    if (data.length < 50) throw new Error(`Expected at least 50 books, found ${data.length}`);
     initialCount = data.length;
     console.log(`       Found ${initialCount} books in database.`);
   });
@@ -121,3 +121,4 @@ async function runTests() {
 }
 
 runTests();
+

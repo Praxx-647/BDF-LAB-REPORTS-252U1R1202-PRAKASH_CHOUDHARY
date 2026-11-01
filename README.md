@@ -4,7 +4,7 @@
 **Student Name**: Prakash Choudhary  
 **Registration Number**: 252U1R1202  
 **Section**: CSE-2D / 214  
-**Faculty**: Shiva Sai Teja  
+**Faculty**: Sai Siva Teja Chintakrindi  
 **Repository**: [Praxx-647/BDF-LAB-REPORTS-252U1R1202-PRAKASH_CHOUDHARY](https://github.com/Praxx-647/BDF-LAB-REPORTS-252U1R1202-PRAKASH_CHOUDHARY)
 
 ---
@@ -44,7 +44,7 @@ This repository houses all laboratory assignments and project deliverables for B
 
 - **Folder**: [`lab-02/`](./lab-02)
 - **Deliverables**:
-  - **SQLite Database** (`database.db`) seeded with 10 book records
+  - **SQLite Database** (`database.db`) seeded with 50 book records ([`seed.js`](./lab-02/seed.js))
   - **Express.js application** with complete CRUD operations using parameterized queries ([`server.js`](./lab-02/server.js))
   - **Automated CRUD route tester** validating endpoints and DB mutations ([`test-endpoints.js`](./lab-02/test-endpoints.js))
   - **Output proof screenshots** for all 5 CRUD operations and DB inspection ([`screenshots/`](./lab-02/screenshots))

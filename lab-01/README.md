@@ -3,6 +3,7 @@
 **Name**: Prakash Choudhary 
 **Registration Number**: 252U1R1202 
 **Section**: CSE-2D / 214  
+**Faculty**: Sai Siva Teja Chintakrindi  
 
 **Live Link**: [https://bdf-labreport01-252u1r1202-prakashc.vercel.app/](https://bdf-labreport01-252u1r1202-prakashc.vercel.app/)
 
