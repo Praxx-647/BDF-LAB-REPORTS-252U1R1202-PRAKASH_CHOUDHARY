@@ -6,7 +6,7 @@
 **Course**: Backend Development Fundamentals (Year II Term II)  
 **Faculty**: Sai Siva Teja Chintakrindi  
 
-**Live Link**: [Insert Live Deployment URL or state reason if running locally with Postman]
+**Live Link**: [https://bdf-labreport03-252u1r1202-prakash.vercel.app/](https://bdf-labreport03-252u1r1202-prakash.vercel.app/)
 
 ---
 
@@ -158,3 +158,4 @@ During the lab debugging module, four critical backend defects were diagnosed an
 3. **Which status code is used for bad input vs a missing record?**  
    - **`400 Bad Request`**: Returned when the client sends malformed data, missing required fields, or invalid formats (input validation errors).
    - **`404 Not Found`**: Returned when the request is syntactically valid, but the target resource or ID does not exist in the database or server.
+

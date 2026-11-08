@@ -17,7 +17,7 @@ This repository houses all laboratory assignments and project deliverables for B
 | :--- | :--- | :--- | :--- |
 | **Lab 01** | Node.js and Express Server | ✅ Completed | [Browse lab-01/](./lab-01) • [🌐 Live Server](https://bdf-labreport01-252u1r1202-prakashc.vercel.app/) |
 | **Lab 02** | SQLite Database and CRUD Routes | ✅ Completed | [Browse lab-02/](./lab-02) • [🌐 Live Server](https://bdf-labreport02-252u1r1202-prakash.vercel.app/) |
-| **Lab 03** | REST API, Query Parameters & Validation | ✅ Completed | [Browse lab-03/](./lab-03) |
+| **Lab 03** | REST API, Query Parameters & Validation | ✅ Completed | [Browse lab-03/](./lab-03) • [🌐 Live Server](https://bdf-labreport03-252u1r1202-prakash.vercel.app/) |
 | **Lab 04** | Upcoming Lab | ⏳ Pending | `lab-04/` |
 | **Lab 05** | Upcoming Lab | ⏳ Pending | `lab-05/` |
 | **Lab 06** | Upcoming Lab | ⏳ Pending | `lab-06/` |
@@ -106,5 +106,5 @@ All laboratory servers are deployed serverless via [Vercel](https://vercel.com/)
 | :--- | :--- | :--- | :--- |
 | **Lab 01** | Node.js and Express Server | `lab-01` | [🌐 View Live Lab 1](https://bdf-labreport01-252u1r1202-prakashc.vercel.app/) |
 | **Lab 02** | SQLite Database & CRUD Routes | `lab-02` | [🌐 View Live Lab 2](https://bdf-labreport02-252u1r1202-prakash.vercel.app/) |
-| **Lab 03** | REST API, Query Parameters & Validation | `lab-03` | ⏳ Pending Deployment (Ready on Vercel import) |
+| **Lab 03** | REST API, Query Parameters & Validation | `lab-03` | [🌐 View Live Lab 3](https://bdf-labreport03-252u1r1202-prakash.vercel.app/) |
 
